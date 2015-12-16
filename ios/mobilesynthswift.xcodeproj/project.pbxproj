@@ -12,7 +12,8 @@
 		1A8F4FF41C1F0EA6002B5E04 /* mobilesynthswiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F4FF31C1F0EA6002B5E04 /* mobilesynthswiftUITests.swift */; };
 		1A8F50091C1F0F23002B5E04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F50031C1F0F23002B5E04 /* ViewController.swift */; };
 		1A8F500A1C1F0F23002B5E04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F50051C1F0F23002B5E04 /* AppDelegate.swift */; };
-		1A8F500B1C1F0F23002B5E04 /* empty in Resources */ = {isa = PBXBuildFile; fileRef = 1A8F50071C1F0F23002B5E04 /* empty */; };
+		BDBABC7B1C2152C300A32B2B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDBABC791C2152C300A32B2B /* MainWindow.xib */; };
+		BDBABC7E1C21539D00A32B2B /* mobilesynthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDBABC7C1C21539D00A32B2B /* mobilesynthViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +45,8 @@
 		1A8F4FF51C1F0EA6002B5E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A8F50031C1F0F23002B5E04 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1A8F50051C1F0F23002B5E04 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1A8F50081C1F0F23002B5E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text; name = Base; path = Base.lproj/empty; sourceTree = "<group>"; };
+		BDBABC7A1C2152C300A32B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		BDBABC7D1C21539D00A32B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/mobilesynthViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,9 +151,18 @@
 		1A8F50061C1F0F23002B5E04 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1A8F50071C1F0F23002B5E04 /* empty */,
+				BDBABC781C21529D00A32B2B /* Base.lproj */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BDBABC781C21529D00A32B2B /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				BDBABC7C1C21539D00A32B2B /* mobilesynthViewController.xib */,
+				BDBABC791C2152C300A32B2B /* MainWindow.xib */,
+			);
+			name = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +269,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A8F500B1C1F0F23002B5E04 /* empty in Resources */,
 				1A8F4FDB1C1F0EA6002B5E04 /* Assets.xcassets in Resources */,
+				BDBABC7B1C2152C300A32B2B /* MainWindow.xib in Resources */,
+				BDBABC7E1C21539D00A32B2B /* mobilesynthViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,12 +333,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1A8F50071C1F0F23002B5E04 /* empty */ = {
+		BDBABC791C2152C300A32B2B /* MainWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1A8F50081C1F0F23002B5E04 /* Base */,
+				BDBABC7A1C2152C300A32B2B /* Base */,
 			);
-			name = empty;
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		BDBABC7C1C21539D00A32B2B /* mobilesynthViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBABC7D1C21539D00A32B2B /* Base */,
+			);
+			name = mobilesynthViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -508,6 +528,7 @@
 				1A8F4FFA1C1F0EA6002B5E04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A8F4FFB1C1F0EA6002B5E04 /* Build configuration list for PBXNativeTarget "mobilesynthswiftTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +537,7 @@
 				1A8F4FFD1C1F0EA6002B5E04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A8F4FFE1C1F0EA6002B5E04 /* Build configuration list for PBXNativeTarget "mobilesynthswiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +546,7 @@
 				1A8F50001C1F0EA6002B5E04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
