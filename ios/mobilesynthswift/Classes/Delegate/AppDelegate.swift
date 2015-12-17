@@ -18,12 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         navigationController = UINavigationController()
-        let viewController: ViewController = ViewController()
+        let mobilesynthViewController: MobilesynthViewController = MobilesynthViewController(nibName: "MobilesynthView", bundle: nil)
 
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         
         //rootViewControllerにviewControllerを指定
-        self.window!.rootViewController = viewController
+        self.window!.rootViewController = mobilesynthViewController
         
         self.window!.backgroundColor = UIColor.whiteColor()
         self.window!.makeKeyAndVisible()
