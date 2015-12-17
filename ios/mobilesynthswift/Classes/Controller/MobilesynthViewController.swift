@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MobilesynthViewController.swift
 //
 //  Created by Sho Terunuma on 11/8/15.
 //  Copyright © 2015 TestOrg. All rights reserved.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MobilesynthViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,7 +18,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
