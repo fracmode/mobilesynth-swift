@@ -12,6 +12,9 @@
 		1A8F4FF41C1F0EA6002B5E04 /* mobilesynthswiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F4FF31C1F0EA6002B5E04 /* mobilesynthswiftUITests.swift */; };
 		1A8F50091C1F0F23002B5E04 /* MobilesynthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F50031C1F0F23002B5E04 /* MobilesynthViewController.swift */; };
 		1A8F500A1C1F0F23002B5E04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F50051C1F0F23002B5E04 /* AppDelegate.swift */; };
+		1AD177AF1C253DEA00CA4FC6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD177AB1C253DEA00CA4FC6 /* MainWindow.xib */; };
+		1AD177B01C253DEA00CA4FC6 /* MobilesynthView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD177AD1C253DEA00CA4FC6 /* MobilesynthView.xib */; };
+		1AD177B41C253EE500CA4FC6 /* ControlScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD177B31C253EE500CA4FC6 /* ControlScrollView.swift */; };
 		BD7912A41C224ED600BF486B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BD79128B1C224ED600BF486B /* Default.png */; };
 		BD7912A51C224ED600BF486B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BD79128C1C224ED600BF486B /* Icon.png */; };
 		BD7912A61C224ED600BF486B /* attack.png in Resources */ = {isa = PBXBuildFile; fileRef = BD79128E1C224ED600BF486B /* attack.png */; };
@@ -34,8 +37,6 @@
 		BD7912B71C224ED600BF486B /* storefront.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BD7912A11C224ED600BF486B /* storefront.tiff */; };
 		BD7912B81C224ED600BF486B /* sustain.png in Resources */ = {isa = PBXBuildFile; fileRef = BD7912A21C224ED600BF486B /* sustain.png */; };
 		BD7912B91C224ED600BF486B /* triangle-wave.png in Resources */ = {isa = PBXBuildFile; fileRef = BD7912A31C224ED600BF486B /* triangle-wave.png */; };
-		BDBABC7B1C2152C300A32B2B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDBABC791C2152C300A32B2B /* MainWindow.xib */; };
-		BDBABC7E1C21539D00A32B2B /* MobilesynthView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDBABC7C1C21539D00A32B2B /* MobilesynthView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,9 @@
 		1A8F4FF51C1F0EA6002B5E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A8F50031C1F0F23002B5E04 /* MobilesynthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilesynthViewController.swift; sourceTree = "<group>"; };
 		1A8F50051C1F0F23002B5E04 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AD177AC1C253DEA00CA4FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = MainWindow.xib; sourceTree = "<group>"; };
+		1AD177AE1C253DEA00CA4FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = MobilesynthView.xib; sourceTree = "<group>"; };
+		1AD177B31C253EE500CA4FC6 /* ControlScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlScrollView.swift; sourceTree = "<group>"; };
 		BD79128B1C224ED600BF486B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BD79128C1C224ED600BF486B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		BD79128E1C224ED600BF486B /* attack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attack.png; sourceTree = "<group>"; };
@@ -89,8 +93,6 @@
 		BD7912A11C224ED600BF486B /* storefront.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = storefront.tiff; sourceTree = "<group>"; };
 		BD7912A21C224ED600BF486B /* sustain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sustain.png; sourceTree = "<group>"; };
 		BD7912A31C224ED600BF486B /* triangle-wave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triangle-wave.png"; sourceTree = "<group>"; };
-		BDBABC7A1C2152C300A32B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		BDBABC7D1C21539D00A32B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MobilesynthView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 		1A8F50011C1F0F23002B5E04 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1AD177A71C253D2900CA4FC6 /* Xib */,
 				1A8F50021C1F0F23002B5E04 /* Controller */,
 				1A8F50041C1F0F23002B5E04 /* Delegate */,
 				1A8F50061C1F0F23002B5E04 /* View */,
@@ -196,9 +199,27 @@
 		1A8F50061C1F0F23002B5E04 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BDBABC781C21529D00A32B2B /* Base.lproj */,
+				1AD177B31C253EE500CA4FC6 /* ControlScrollView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		1AD177A71C253D2900CA4FC6 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				1AD177AA1C253DEA00CA4FC6 /* Base.lproj */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+		1AD177AA1C253DEA00CA4FC6 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				1AD177AB1C253DEA00CA4FC6 /* MainWindow.xib */,
+				1AD177AD1C253DEA00CA4FC6 /* MobilesynthView.xib */,
+			);
+			name = Base.lproj;
+			path = Xib/Base.lproj;
 			sourceTree = "<group>";
 		};
 		BD7912891C224ED600BF486B /* Resources */ = {
@@ -260,15 +281,6 @@
 				BD7912A11C224ED600BF486B /* storefront.tiff */,
 			);
 			path = store;
-			sourceTree = "<group>";
-		};
-		BDBABC781C21529D00A32B2B /* Base.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				BDBABC7C1C21539D00A32B2B /* MobilesynthView.xib */,
-				BDBABC791C2152C300A32B2B /* MainWindow.xib */,
-			);
-			name = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,9 +388,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A8F4FDB1C1F0EA6002B5E04 /* Assets.xcassets in Resources */,
-				BDBABC7B1C2152C300A32B2B /* MainWindow.xib in Resources */,
 				BD7912AE1C224ED600BF486B /* keyboard.png in Resources */,
 				BD7912A51C224ED600BF486B /* Icon.png in Resources */,
+				1AD177B01C253DEA00CA4FC6 /* MobilesynthView.xib in Resources */,
 				BD7912A81C224ED600BF486B /* PhattyStage-xlarge.jpg in Resources */,
 				BD7912A71C224ED600BF486B /* decay.png in Resources */,
 				BD7912AB1C224ED600BF486B /* keyboard-full.png in Resources */,
@@ -389,7 +401,6 @@
 				BD7912AA1C224ED600BF486B /* keyboard-blank.png in Resources */,
 				BD7912A91C224ED600BF486B /* mlpf1_large.jpg in Resources */,
 				BD7912B81C224ED600BF486B /* sustain.png in Resources */,
-				BDBABC7E1C21539D00A32B2B /* MobilesynthView.xib in Resources */,
 				BD7912AD1C224ED600BF486B /* keyboard-max.png in Resources */,
 				BD7912B61C224ED600BF486B /* Screenshot 2009.02.28 20.41.23.jpg in Resources */,
 				BD7912A41C224ED600BF486B /* Default.png in Resources */,
@@ -397,6 +408,7 @@
 				BD7912A61C224ED600BF486B /* attack.png in Resources */,
 				BD7912B41C224ED600BF486B /* Screenshot 2009.02.28 20.38.05.jpg in Resources */,
 				BD7912AF1C224ED600BF486B /* mobilesynth.png in Resources */,
+				1AD177AF1C253DEA00CA4FC6 /* MainWindow.xib in Resources */,
 				BD7912B01C224ED600BF486B /* release.png in Resources */,
 				BD7912B11C224ED600BF486B /* reverse-sawtooth-wave.png in Resources */,
 				BD7912B91C224ED600BF486B /* triangle-wave.png in Resources */,
@@ -425,6 +437,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A8F500A1C1F0F23002B5E04 /* AppDelegate.swift in Sources */,
+				1AD177B41C253EE500CA4FC6 /* ControlScrollView.swift in Sources */,
 				1A8F50091C1F0F23002B5E04 /* MobilesynthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,18 +474,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BDBABC791C2152C300A32B2B /* MainWindow.xib */ = {
+		1AD177AB1C253DEA00CA4FC6 /* MainWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BDBABC7A1C2152C300A32B2B /* Base */,
+				1AD177AC1C253DEA00CA4FC6 /* Base */,
 			);
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		BDBABC7C1C21539D00A32B2B /* MobilesynthView.xib */ = {
+		1AD177AD1C253DEA00CA4FC6 /* MobilesynthView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BDBABC7D1C21539D00A32B2B /* Base */,
+				1AD177AE1C253DEA00CA4FC6 /* Base */,
 			);
 			name = MobilesynthView.xib;
 			sourceTree = "<group>";
