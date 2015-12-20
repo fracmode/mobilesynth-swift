@@ -10,13 +10,8 @@ import Foundation
 import UIKit
 
 class ControlScrollView : UIScrollView {
-    var touchDown:Bool
-    
-    // init
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
+    var touchDown:Bool = false
+
     // touchesBegan
     func touchesBegan( touches:NSSet, event:UIEvent ) {
         if (!self.touchDown) {
