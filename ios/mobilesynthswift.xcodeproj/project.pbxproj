@@ -12,6 +12,7 @@
 		1A8F4FF41C1F0EA6002B5E04 /* mobilesynthswiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F4FF31C1F0EA6002B5E04 /* mobilesynthswiftUITests.swift */; };
 		1A8F50091C1F0F23002B5E04 /* MobilesynthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F50031C1F0F23002B5E04 /* MobilesynthViewController.swift */; };
 		1A8F500A1C1F0F23002B5E04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F50051C1F0F23002B5E04 /* AppDelegate.swift */; };
+		1A9A61F91C26E38D001B5DB2 /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A61F81C26E38D001B5DB2 /* KeyView.swift */; };
 		1AD177AF1C253DEA00CA4FC6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD177AB1C253DEA00CA4FC6 /* MainWindow.xib */; };
 		1AD177B01C253DEA00CA4FC6 /* MobilesynthView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD177AD1C253DEA00CA4FC6 /* MobilesynthView.xib */; };
 		1AD177B41C253EE500CA4FC6 /* ControlScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD177B31C253EE500CA4FC6 /* ControlScrollView.swift */; };
@@ -68,6 +69,7 @@
 		1A8F4FF51C1F0EA6002B5E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A8F50031C1F0F23002B5E04 /* MobilesynthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilesynthViewController.swift; sourceTree = "<group>"; };
 		1A8F50051C1F0F23002B5E04 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A9A61F81C26E38D001B5DB2 /* KeyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
 		1AD177AC1C253DEA00CA4FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = MainWindow.xib; sourceTree = "<group>"; };
 		1AD177AE1C253DEA00CA4FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = MobilesynthView.xib; sourceTree = "<group>"; };
 		1AD177B31C253EE500CA4FC6 /* ControlScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlScrollView.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				1AD177B31C253EE500CA4FC6 /* ControlScrollView.swift */,
+				1A9A61F81C26E38D001B5DB2 /* KeyView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -436,6 +439,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A9A61F91C26E38D001B5DB2 /* KeyView.swift in Sources */,
 				1A8F500A1C1F0F23002B5E04 /* AppDelegate.swift in Sources */,
 				1AD177B41C253EE500CA4FC6 /* ControlScrollView.swift in Sources */,
 				1A8F50091C1F0F23002B5E04 /* MobilesynthViewController.swift in Sources */,
