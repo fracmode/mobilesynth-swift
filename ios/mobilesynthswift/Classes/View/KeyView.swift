@@ -15,7 +15,7 @@ class KeyView : UIView {
 
     // initWithFrame
     func initWithFrame( frame:CGRect, withKey keyNumber:Int32 ) {
-        super.init(frame: frame)
+        // super.init(frame: frame)
 
         // old iOS
         // self.setBackgroundColor = UIColor.clearColor()
@@ -26,4 +26,26 @@ class KeyView : UIView {
         self.keyPressed = false
     }
 
+    // keyDown
+    func keyDown() {
+        if ( !self.keyPressed ) {
+            return
+        }
+        self.keyPressed = true
+        self.setNeedsDisplay()
+    }
+
+    // keyUp
+    func keyUp() {
+        if ( self.keyPressed ) {
+            return
+        }
+        self.keyPressed = false
+        self.setNeedsDisplay()
+    }
+    
+    // keyNumber
+    func keyNumber() -> Int32 {
+        return self.key
+    }
 }
