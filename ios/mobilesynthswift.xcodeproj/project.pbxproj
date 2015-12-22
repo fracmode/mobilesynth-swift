@@ -16,6 +16,7 @@
 		1AD177AF1C253DEA00CA4FC6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD177AB1C253DEA00CA4FC6 /* MainWindow.xib */; };
 		1AD177B01C253DEA00CA4FC6 /* MobilesynthView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD177AD1C253DEA00CA4FC6 /* MobilesynthView.xib */; };
 		1AD177B41C253EE500CA4FC6 /* ControlScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD177B31C253EE500CA4FC6 /* ControlScrollView.swift */; };
+		1AD177B61C29298900CA4FC6 /* TouchForwardingUIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD177B51C29298900CA4FC6 /* TouchForwardingUIScrollView.swift */; };
 		BD7912A41C224ED600BF486B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BD79128B1C224ED600BF486B /* Default.png */; };
 		BD7912A51C224ED600BF486B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BD79128C1C224ED600BF486B /* Icon.png */; };
 		BD7912A61C224ED600BF486B /* attack.png in Resources */ = {isa = PBXBuildFile; fileRef = BD79128E1C224ED600BF486B /* attack.png */; };
@@ -73,6 +74,7 @@
 		1AD177AC1C253DEA00CA4FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = MainWindow.xib; sourceTree = "<group>"; };
 		1AD177AE1C253DEA00CA4FC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = MobilesynthView.xib; sourceTree = "<group>"; };
 		1AD177B31C253EE500CA4FC6 /* ControlScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlScrollView.swift; sourceTree = "<group>"; };
+		1AD177B51C29298900CA4FC6 /* TouchForwardingUIScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchForwardingUIScrollView.swift; sourceTree = "<group>"; };
 		BD79128B1C224ED600BF486B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BD79128C1C224ED600BF486B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		BD79128E1C224ED600BF486B /* attack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attack.png; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 			children = (
 				1AD177B31C253EE500CA4FC6 /* ControlScrollView.swift */,
 				1A9A61F81C26E38D001B5DB2 /* KeyView.swift */,
+				1AD177B51C29298900CA4FC6 /* TouchForwardingUIScrollView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -443,6 +446,7 @@
 				1A8F500A1C1F0F23002B5E04 /* AppDelegate.swift in Sources */,
 				1AD177B41C253EE500CA4FC6 /* ControlScrollView.swift in Sources */,
 				1A8F50091C1F0F23002B5E04 /* MobilesynthViewController.swift in Sources */,
+				1AD177B61C29298900CA4FC6 /* TouchForwardingUIScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
