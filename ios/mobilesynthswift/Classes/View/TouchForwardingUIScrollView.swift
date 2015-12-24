@@ -12,8 +12,8 @@ import UIKit
 class TouchForwardingUIScrollView: UIScrollView {
     var touchView: UIView? = nil
 
-    // touchesEnded
-    func _touchesEnded(touches: NSSet, withEvent event: UIEvent) {
+    // doTouchesEnded
+    func doTouchesEnded(touches: NSSet, withEvent event: UIEvent) {
         super.touchesEnded(touches as! Set<UITouch>, withEvent: event)
         let subview:UIView? = self.hitSubview(touches, withEvent: event)
         if ( subview != nil ) {
