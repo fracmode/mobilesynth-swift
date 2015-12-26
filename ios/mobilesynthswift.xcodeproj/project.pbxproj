@@ -20,6 +20,7 @@
 		1AD17CD81C2C3BE600CA4FC6 /* BlackKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD17CD71C2C3BE600CA4FC6 /* BlackKeyView.swift */; };
 		1AD17CDD1C2C412100CA4FC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD17CDC1C2C412100CA4FC6 /* CoreGraphics.framework */; };
 		1AD17CE01C2C45B100CA4FC6 /* WhiteKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD17CDF1C2C45B100CA4FC6 /* WhiteKeyView.swift */; };
+		1AD17CE21C2ED7AF00CA4FC6 /* OctaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD17CE11C2ED7AF00CA4FC6 /* OctaveView.swift */; };
 		BD7912A41C224ED600BF486B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BD79128B1C224ED600BF486B /* Default.png */; };
 		BD7912A51C224ED600BF486B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BD79128C1C224ED600BF486B /* Icon.png */; };
 		BD7912A61C224ED600BF486B /* attack.png in Resources */ = {isa = PBXBuildFile; fileRef = BD79128E1C224ED600BF486B /* attack.png */; };
@@ -81,6 +82,7 @@
 		1AD17CD71C2C3BE600CA4FC6 /* BlackKeyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackKeyView.swift; sourceTree = "<group>"; };
 		1AD17CDC1C2C412100CA4FC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1AD17CDF1C2C45B100CA4FC6 /* WhiteKeyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteKeyView.swift; sourceTree = "<group>"; };
+		1AD17CE11C2ED7AF00CA4FC6 /* OctaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OctaveView.swift; sourceTree = "<group>"; };
 		BD79128B1C224ED600BF486B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BD79128C1C224ED600BF486B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		BD79128E1C224ED600BF486B /* attack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attack.png; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 				1AD177B51C29298900CA4FC6 /* TouchForwardingUIScrollView.swift */,
 				1AD17CD71C2C3BE600CA4FC6 /* BlackKeyView.swift */,
 				1AD17CDF1C2C45B100CA4FC6 /* WhiteKeyView.swift */,
+				1AD17CE11C2ED7AF00CA4FC6 /* OctaveView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -460,6 +463,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AD17CE21C2ED7AF00CA4FC6 /* OctaveView.swift in Sources */,
 				1A9A61F91C26E38D001B5DB2 /* KeyView.swift in Sources */,
 				1AD17CE01C2C45B100CA4FC6 /* WhiteKeyView.swift in Sources */,
 				1A8F500A1C1F0F23002B5E04 /* AppDelegate.swift in Sources */,
