@@ -19,6 +19,7 @@
   // Override point for customization after app launch    
   [[UIApplication sharedApplication] setStatusBarHidden:YES];
   [window addSubview:viewController.view];
+  self.window.rootViewController = viewController;
   [window makeKeyAndVisible];
 }
 
