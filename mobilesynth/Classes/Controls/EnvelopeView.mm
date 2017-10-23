@@ -7,7 +7,7 @@
 //
 
 #import "EnvelopeView.h"
-#include "synth/envelope.h"
+#include "../synth/envelope.h"
 
 @implementation EnvelopeView
 
