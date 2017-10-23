@@ -7,7 +7,7 @@
 //
 
 #import "ModulationView.h"
-#include "synth/controller.h"
+#include "../synth/controller.h"
 
 @implementation ModulationView
 

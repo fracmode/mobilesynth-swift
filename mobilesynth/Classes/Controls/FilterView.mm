@@ -7,7 +7,7 @@
 //
 
 #import "FilterView.h"
-#include "synth/controller.h"
+#include "../synth/controller.h"
 
 @implementation FilterView
 

@@ -6,8 +6,8 @@
 #ifndef __OSCILLATOR_H__
 #define __OSCILLATOR_H__
 
-#include "synth/parameter.h"
-#include "synth/lag_processor.h"
+#include "parameter.h"
+#include "lag_processor.h"
 
 namespace synth {
 

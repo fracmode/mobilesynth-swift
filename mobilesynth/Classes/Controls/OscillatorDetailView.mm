@@ -7,7 +7,7 @@
 //
 
 #import "OscillatorDetailView.h"
-#include "synth/controller.h"
+#include "../synth/controller.h"
 
 @implementation OscillatorDetailView
 
