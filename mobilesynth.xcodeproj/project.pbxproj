@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1AD136931F9F940E004B2B7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD136921F9F940E004B2B7B /* Assets.xcassets */; };
+		1AFA0E9D1FA4CF41004965EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA0E9C1FA4CF41004965EA /* LaunchScreen.storyboard */; };
 		1D3623260D0F684500981E51 /* mobilesynthAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* mobilesynthAppDelegate.mm */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -62,6 +63,7 @@
 
 /* Begin PBXFileReference section */
 		1AD136921F9F940E004B2B7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AFA0E9C1FA4CF41004965EA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* mobilesynthAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mobilesynthAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* mobilesynthAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mobilesynthAppDelegate.mm; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 				8D1107310486CEB800E47090 /* Info.plist */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				2899E5210DE3E06400AC0155 /* mobilesynthViewController.xib */,
+				1AFA0E9C1FA4CF41004965EA /* LaunchScreen.storyboard */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 				1AD136921F9F940E004B2B7B /* Assets.xcassets */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -351,6 +354,7 @@
 				1AD136931F9F940E004B2B7B /* Assets.xcassets in Resources */,
 				2C3FDDDB0EF6052B00284C99 /* triangle-wave.png in Resources */,
 				2C3FDDDF0EF606E600284C99 /* sawtooth-wave.png in Resources */,
+				1AFA0E9D1FA4CF41004965EA /* LaunchScreen.storyboard in Resources */,
 				2C3FDDE10EF6072300284C99 /* reverse-sawtooth-wave.png in Resources */,
 				2C61D7350F01FF5B00ECE3A2 /* attack.png in Resources */,
 				2C61D7370F0208CE00ECE3A2 /* decay.png in Resources */,
@@ -402,6 +406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = "";
@@ -420,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = "";
@@ -467,6 +473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = "";
