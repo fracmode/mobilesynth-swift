@@ -194,6 +194,7 @@
 		1A55A4AA1F9E3E3D009B7BEA /* mobilesynth */ = {
 			isa = PBXGroup;
 			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				2899E5210DE3E06400AC0155 /* mobilesynthViewController.xib */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
@@ -211,7 +212,6 @@
 				1A55A4AA1F9E3E3D009B7BEA /* mobilesynth */,
 				1A160BDD1F9E3F06001277A4 /* mobilesynthTests */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				8D1107310486CEB800E47090 /* Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -409,7 +409,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = mobilesynth/PrefixHeader.pch;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/mobilesynth/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = org.thebends.mobilesynth;
 				PRODUCT_NAME = mobilesynth;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -425,7 +425,7 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = mobilesynth/PrefixHeader.pch;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/mobilesynth/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = org.thebends.mobilesynth;
 				PRODUCT_NAME = mobilesynth;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -472,7 +472,7 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = mobilesynth/PrefixHeader.pch;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/mobilesynth/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = org.thebends.mobilesynth;
 				PRODUCT_NAME = mobilesynth;
 				PROVISIONING_PROFILE_SPECIFIER = "";
