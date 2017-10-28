@@ -49,7 +49,6 @@
 		2CEA46A60F03329800772FF7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CEA46A50F03329800772FF7 /* AudioToolbox.framework */; };
 		2CF0DD6F0F89293900D296DE /* OctaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0DD6E0F89293900D296DE /* OctaveView.m */; };
 		2CF0DDB00F892D3B00D296DE /* WhiteKeyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF0DDAF0F892D3B00D296DE /* WhiteKeyView.m */; };
-		2CF108A10F52073900968084 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CF108A00F52073900968084 /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -130,7 +129,6 @@
 		2CF0DD6E0F89293900D296DE /* OctaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OctaveView.m; sourceTree = "<group>"; };
 		2CF0DDAE0F892D3B00D296DE /* WhiteKeyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteKeyView.h; sourceTree = "<group>"; };
 		2CF0DDAF0F892D3B00D296DE /* WhiteKeyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteKeyView.m; sourceTree = "<group>"; };
-		2CF108A00F52073900968084 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = mobilesynth/Default.png; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* mobilesynth_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mobilesynth_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -223,7 +221,6 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2CF108A00F52073900968084 /* Default.png */,
 				2C61D73B0F020FE200ECE3A2 /* release.png */,
 				2C61D7380F020AC800ECE3A2 /* sustain.png */,
 				2C61D7360F0208CE00ECE3A2 /* decay.png */,
@@ -360,7 +357,6 @@
 				2C61D7370F0208CE00ECE3A2 /* decay.png in Resources */,
 				2C61D7390F020AC800ECE3A2 /* sustain.png in Resources */,
 				2C61D73C0F020FE200ECE3A2 /* release.png in Resources */,
-				2CF108A10F52073900968084 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
