@@ -409,7 +409,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = mobilesynth_Prefix.pch;
+				GCC_PREFIX_HEADER = mobilesynth/PrefixHeader.pch;
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = mobilesynth;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -424,7 +424,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = mobilesynth_Prefix.pch;
+				GCC_PREFIX_HEADER = mobilesynth/PrefixHeader.pch;
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = mobilesynth;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -456,7 +456,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = mobilesynth_Prefix.pch;
+				GCC_PREFIX_HEADER = mobilesynth/PrefixHeader.pch;
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = mobilesynth;
 				PROVISIONING_PROFILE_SPECIFIER = "";
