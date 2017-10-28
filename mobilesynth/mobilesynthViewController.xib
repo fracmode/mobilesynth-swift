@@ -136,6 +136,7 @@
                 <outlet property="lfoRate" destination="99" id="219"/>
                 <outlet property="lfoSrc" destination="98" id="315"/>
             </connections>
+            <point key="canvasLocation" x="531" y="124"/>
         </view>
         <view clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" id="104" userLabel="EnvelopeView" customClass="EnvelopeView">
             <rect key="frame" x="0.0" y="0.0" width="444" height="130"/>
@@ -206,6 +207,7 @@
                 <outlet property="release" destination="120" id="228"/>
                 <outlet property="sustain" destination="119" id="227"/>
             </connections>
+            <point key="canvasLocation" x="531" y="289"/>
         </view>
         <view clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" id="152" userLabel="OscillatorDetailView" customClass="OscillatorDetailView">
             <rect key="frame" x="0.0" y="0.0" width="444" height="130"/>
@@ -295,6 +297,7 @@
                 <outlet property="osc2TotalLabel" destination="190" id="213"/>
                 <outlet property="oscSync" destination="309" id="312"/>
             </connections>
+            <point key="canvasLocation" x="531" y="453"/>
         </view>
         <view clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" id="76" userLabel="OscillatorView" customClass="OscillatorView">
             <rect key="frame" x="0.0" y="0.0" width="444" height="130"/>
@@ -411,6 +414,7 @@
                 <outlet property="osc2Octave" destination="91" id="183"/>
                 <outlet property="osc2Wave" destination="87" id="182"/>
             </connections>
+            <point key="canvasLocation" x="531" y="-41"/>
         </view>
         <view clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" id="237" userLabel="FilterView" customClass="FilterView">
             <rect key="frame" x="0.0" y="0.0" width="444" height="130"/>
@@ -469,6 +473,7 @@
                 <outlet property="frequencyLabel" destination="320" id="321"/>
                 <outlet property="resonance" destination="348" id="349"/>
             </connections>
+            <point key="canvasLocation" x="531" y="617"/>
         </view>
         <view clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" id="282" userLabel="FilterEnvelopeView" customClass="EnvelopeView">
             <rect key="frame" x="0.0" y="0.0" width="444" height="130"/>
@@ -539,6 +544,7 @@
                 <outlet property="release" destination="283" id="292"/>
                 <outlet property="sustain" destination="285" id="299"/>
             </connections>
+            <point key="canvasLocation" x="531" y="783"/>
         </view>
         <view clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" id="351" userLabel="ArpeggioView" customClass="ArpeggioView">
             <rect key="frame" x="0.0" y="0.0" width="444" height="130"/>
